@@ -1,0 +1,9 @@
+<transition
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:drawable="@drawable/birthday"
+        />
+    <item
+        android:drawable="@drawable/birthday2"
+        />
+</transition>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/birthday_wish" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:padding="20sp"
+        android:text="@string/happy_birthday"
+        android:textColor="@color/purple"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@id/imageView"
+        android:layout_alignRight="@id/imageView"
+        android:layout_alignBottom="@id/imageView"
+        android:fontFamily="sans-serif-black"
+        android:padding="20sp"
+        android:text="@string/from_anuj"
+        android:textColor="@color/yellow"
+        android:textSize="30sp" />
+</RelativeLayout>
